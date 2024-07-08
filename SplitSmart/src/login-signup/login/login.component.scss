@@ -1,0 +1,24 @@
+.login-component-container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    mat-form-field {
+        width: 350px;
+    }
+
+    mat-divider {
+        margin-top: 20px;
+        width: 350px;
+    }
+
+    .action-button {
+        width: 350px;
+    }
+
+    .sign-up-button-container {
+        margin-top: 20px;
+    }
+}
