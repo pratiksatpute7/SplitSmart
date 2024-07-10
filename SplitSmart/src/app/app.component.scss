@@ -1,0 +1,32 @@
+.navbar-section {
+    width: 100%;
+    .navbar-container {
+        .nav-box {
+            height: 100px;
+            p {
+                width: 100%;
+                height: 100%;
+                margin: 0px;
+            }
+            .nav-image {
+                width: 200px;
+                height: 100px;
+                margin-top: -25px;
+            }
+        }
+        
+    }   
+}
+
+.footer-section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .footer-container {
+        background-color: aqua;
+        p {
+            margin: 0px;
+        }
+        
+    }
+}
