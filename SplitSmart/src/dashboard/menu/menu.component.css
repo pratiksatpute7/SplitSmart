@@ -1,0 +1,16 @@
+.menu-component {
+    width: 250px;
+    height: 100%;
+    .toggle-button-contianer {
+        mat-toolbar {
+            background-color: transparent;
+        }
+    }
+    .mat-sidenav-container {
+        height: 100%;
+        background-color: transparent;
+    }
+    mat-expansion-panel {
+        width: 250px;
+    }
+}
