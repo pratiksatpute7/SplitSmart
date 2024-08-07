@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MatCard, MatCardContent, MatCardHeader, MatCardSubtitle, MatCardTitle, MatCardTitleGroup } from '@angular/material/card';
+import { BalanceSummaryModel } from '../../models/balance-summary-model';
 
 @Component({
   selector: 'app-information-section',
@@ -16,4 +17,17 @@ import { MatCard, MatCardContent, MatCardHeader, MatCardSubtitle, MatCardTitle, 
 })
 export class InformationSectionComponent {
 
+  private BalanceSummary : BalanceSummaryModel = new BalanceSummaryModel();
+
+  public get summary(): BalanceSummaryModel {
+    return this.BalanceSummary;
+  }
+
+  public ngOnInit(): void {
+    this.getUserBalanceSummary();
+  }
+
+  private getUserBalanceSummary(): void {
+    //TODO: make api call to get the summary details for the user 
+  }
 }

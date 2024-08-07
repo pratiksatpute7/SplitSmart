@@ -1,35 +1,35 @@
 <div class="information-section-component">
     <div class="card-container">
-        <mat-card class="example-card">
+        <mat-card>
             <mat-card-header>
                 <mat-card-title>
                     total balance
                 </mat-card-title>
             </mat-card-header>
             <mat-card-content>
-                Hello World!
+                {{summary.totalBalance}}
             </mat-card-content>
         </mat-card>
         
-        <mat-card class="example-card">
+        <mat-card>
             <mat-card-header>
                 <mat-card-title>
                     you owe
                 </mat-card-title>
             </mat-card-header>
-            <mat-card-content>
-                Hello World!
+            <mat-card-content class="you-owe">
+                {{summary.youOwe}}
             </mat-card-content>
         </mat-card>
 
-        <mat-card class="example-card">
+        <mat-card>
             <mat-card-header>
                 <mat-card-title>
                     you are owed
                 </mat-card-title>
             </mat-card-header>
-            <mat-card-content>
-                Hello World!
+            <mat-card-content class="you-are-owed">
+                {{summary.youAreOwed}}
             </mat-card-content>
         </mat-card>
     </div>

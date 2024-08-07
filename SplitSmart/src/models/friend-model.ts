@@ -1,3 +1,4 @@
+import { EMPTY } from "../app/constants/string.constants";
 
 export class FriendModel {
     firstName : string;
