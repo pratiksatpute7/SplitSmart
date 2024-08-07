@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MatCard, MatCardContent, MatCardHeader, MatCardSubtitle, MatCardTitle, MatCardTitleGroup } from '@angular/material/card';
 import { BalanceSummaryModel } from '../../models/balance-summary-model';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-information-section',
@@ -11,7 +12,8 @@ import { BalanceSummaryModel } from '../../models/balance-summary-model';
     MatCardSubtitle, 
     MatCardTitle, 
     MatCardTitleGroup,
-    MatCardHeader],
+    MatCardHeader, 
+    CommonModule],
   templateUrl: './information-section.component.html',
   styleUrl: './information-section.component.scss'
 })
