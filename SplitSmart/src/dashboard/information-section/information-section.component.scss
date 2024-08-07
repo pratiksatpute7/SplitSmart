@@ -1,0 +1,20 @@
+.information-section-component {
+    .card-container {
+        display: flex;
+
+        mat-card {
+            flex-basis: 100%;
+            border-radius: 0%;
+
+            mat-card-header {
+                justify-content: center;
+            }
+
+            mat-card-content {
+                justify-content: center;
+                    display: flex;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,32 @@
+<div class="dashboard-component">
+    <div class="menu-container">
+        <app-menu></app-menu>
+    </div>
+    <div class="dashboard-main-card-container">
+        <div class="card-header-container">
+            <div class="card-title">
+                <mat-card-content>
+                    Dashboard
+                </mat-card-content>
+            </div>
+            <div class="card-primary-action-button-container">
+                <button 
+                    mat-raised-button 
+                    color="primary"> 
+                    Add Expense
+                </button>
+                <button 
+                    mat-raised-button 
+                    color="primary"> 
+                    Settle up!
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <mat-card>
+                <app-information-section></app-information-section>
+            </mat-card>
+            <app-dashboard-summary></app-dashboard-summary>
+        </div>
+    </div>
+</div>

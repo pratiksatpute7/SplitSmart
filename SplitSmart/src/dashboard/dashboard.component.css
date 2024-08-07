@@ -1,0 +1,31 @@
+.dashboard-component {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    .menu-container {
+        width: 250px;
+    }
+
+    .dashboard-main-card-container {
+        width: 100%;
+        margin-right: 250px;
+        
+        .card-header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+
+            .card-primary-action-button-container {
+                display: flex;
+                justify-content: space-between;
+                width: 250px;
+            }
+        }
+
+        .card {
+            height: 100%;
+            border: solid;
+        }
+    }
+}

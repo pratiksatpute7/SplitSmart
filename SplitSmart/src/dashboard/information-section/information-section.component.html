@@ -1,0 +1,36 @@
+<div class="information-section-component">
+    <div class="card-container">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>
+                    total balance
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                {{summary.totalBalance | currency}}
+            </mat-card-content>
+        </mat-card>
+        
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>
+                    you owe
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="you-owe">
+                {{summary.youOwe | currency}}
+            </mat-card-content>
+        </mat-card>
+
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>
+                    you are owed
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="you-are-owed">
+                {{summary.youAreOwed | currency}}
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
