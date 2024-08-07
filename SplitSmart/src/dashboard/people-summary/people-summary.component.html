@@ -1,0 +1,11 @@
+<div class="person-summary-container">
+    <mat-card class="person-card" appearance="outlined">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Friend 1</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div>  You owe friend 1 <b [ngClass]="youOwe ? 'you-owe' : 'you-are-owed'"> $150 </b> </div>
+        </mat-card-content>
+    </mat-card>
+</div>

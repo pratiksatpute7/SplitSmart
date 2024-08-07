@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard.component';
 import { MenuComponent } from './menu/menu.component';
 import { InformationSectionComponent } from './information-section/information-section.component';
+import { PeopleSummaryComponent } from './people-summary/people-summary.component';
 
 @NgModule({
   imports: [
@@ -11,7 +12,8 @@ import { InformationSectionComponent } from './information-section/information-s
   declarations: [
     DashboardComponent,
     MenuComponent,
-    InformationSectionComponent
+    InformationSectionComponent,
+    PeopleSummaryComponent
   ],
   exports: [
   ]
