@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MatCard, MatCardContent, MatCardHeader, MatCardSubtitle, MatCardTitle, MatCardTitleGroup } from '@angular/material/card';
-import { BalanceSummaryModel } from '../../models/balance-summary-model';
+import { BalanceSummaryModel } from '../../../models/balance-summary-model';
 import { CommonModule } from '@angular/common';
 
 @Component({

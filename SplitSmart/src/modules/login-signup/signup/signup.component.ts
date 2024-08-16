@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SignupModel } from '../../models/signup-model';
+import { SignupModel } from '../../../models/signup-model';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
